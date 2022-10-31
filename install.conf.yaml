@@ -6,4 +6,7 @@
     ~/.bash_logout: bash_logout
     ~/.zshrc: zshrc
     ~/.zsh: .zsh
+    ~/.config: 
+      path: .config
+      force: true
 
