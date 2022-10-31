@@ -1,0 +1,396 @@
+game:
+  arch: win64
+  exe: drive_c/Fallout 3/launch.bat
+  prefix: /games/lutris/fallout3goty
+game_slug: fallout-3-game-of-the-year-edition
+name: 'Fallout 3: Game of the Year Edition'
+requires: null
+script:
+  files:
+  - setup: N/A:Please select installer exe from GOG
+  - innoextract: http://constexpr.org/innoextract/files/innoextract-1.7/innoextract-1.7-linux.tar.xz
+  - wallpaper: https://gist.github.com/daniel-j/28c6d207c5393aa64c3a9d8ee26d1425/raw/wallpaper-fallout3.tar.xz
+  - laa-patcher: https://gist.github.com/daniel-j/28c6d207c5393aa64c3a9d8ee26d1425/raw/laa-patcher.tar.xz
+  - launchmenu: https://gist.github.com/daniel-j/8194c168cff79e57960eed7080e8516b/archive/master.tar.gz
+  - modpack: https://djazz.se/nas/games/fallout3/modpack.tar.xz
+  game:
+    arch: win64
+    exe: drive_c/Fallout 3/launch.bat
+    prefix: $GAMEDIR
+  installer:
+  - input_menu:
+      id: CONFIG_LOCATION
+      options:
+      - {}
+      - {}
+      preselect: 'true'
+  - task:
+      arch: win64
+      install_gecko: 'False'
+      install_mono: 'False'
+      prefix: /games/lutris/fallout3goty
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - task:
+      arch: win64
+      key: WineDesktop
+      path: HKEY_CURRENT_USER\Software\Wine\Explorer\Desktops
+      prefix: /games/lutris/fallout3goty
+      value: ''
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - task:
+      app: winxp quartz
+      arch: win64
+      prefix: /games/lutris/fallout3goty
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - extract:
+      dst: $GAMEDIR/drive_c
+      file: wallpaper
+  - task:
+      arch: win64
+      key: Background
+      path: HKEY_CURRENT_USER\Control Panel\Colors
+      prefix: /games/lutris/fallout3goty
+      value: 0 0 0
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - task:
+      arch: win64
+      key: Wallpaper
+      path: HKEY_CURRENT_USER\Control Panel\Desktop
+      prefix: /games/lutris/fallout3goty
+      value: c:\\wallpaper.bmp
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - task:
+      arch: win64
+      key: GrabFullscreen
+      path: HKEY_CURRENT_USER\Software\Wine\AppDefaults\Fallout3.exe\X11 Driver
+      prefix: /games/lutris/fallout3goty
+      value: Y
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - task:
+      arch: win64
+      key: VideoPciDeviceID
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+      prefix: /games/lutris/fallout3goty
+      type: REG_DWORD
+      value: '402'
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - task:
+      arch: win64
+      key: VideoPciVendorID
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+      prefix: /games/lutris/fallout3goty
+      type: REG_DWORD
+      value: 10de
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - task:
+      arch: win64
+      key: AlwaysOffscreen
+      path: HKEY_CURRENT_USER\Software\Wine\Direct3D
+      prefix: /games/lutris/fallout3goty
+      value: disabled
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - task:
+      arch: win64
+      key: ColorTable02
+      path: HKEY_CURRENT_USER\Console
+      prefix: /games/lutris/fallout3goty
+      type: REG_DWORD
+      value: 202e0e
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - task:
+      arch: win64
+      key: ColorTable10
+      path: HKEY_CURRENT_USER\Console
+      prefix: /games/lutris/fallout3goty
+      type: REG_DWORD
+      value: 74f014
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - task:
+      arch: win64
+      key: FaceName
+      path: HKEY_CURRENT_USER\Console
+      prefix: /games/lutris/fallout3goty
+      value: Fixedsys
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - task:
+      arch: win64
+      key: ScreenColors
+      path: HKEY_CURRENT_USER\Console
+      prefix: /games/lutris/fallout3goty
+      type: REG_DWORD
+      value: 2a
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - task:
+      arch: win64
+      key: FontWeight
+      path: HKEY_CURRENT_USER\Console
+      prefix: /games/lutris/fallout3goty
+      type: REG_DWORD
+      value: 0190
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - extract:
+      dst: $CACHE/innoextract
+      file: innoextract
+  - execute:
+      command: mkdir -pv "$GAMEDIR/drive_c/Fallout 3" "$CACHE/extract"; ln -sv "$GAMEDIR/drive_c/Fallout
+        3" "$CACHE/extract/app"
+  - execute:
+      args: --gog --exclude-temp --output-dir "$CACHE/extract" "$setup"
+      file: $CACHE/innoextract/innoextract
+  - write_file:
+      content: 'REGEDIT4
+
+
+        [HKEY_LOCAL_MACHINE\Software\Bethesda Softworks\Fallout3]
+
+        "Installed Path"="C:\\Fallout 3\\"
+
+
+        [HKEY_LOCAL_MACHINE\Software\Wow6432Node\Bethesda Softworks\Fallout3]
+
+        "Installed Path"="C:\\Fallout 3\\"
+
+        '
+      file: $CACHE/fallout3.reg
+  - task:
+      arch: win64
+      filename: /home/kodi/.cache/lutris/installer/fallout-3-game-of-the-year-edition/fallout3.reg
+      prefix: /games/lutris/fallout3goty
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: bUseThreadedAI
+      section: General
+      value: 1
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: iNumHWThreads
+      section: General
+      value: 2
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: bUseThreadedBlood
+      section: General
+      value: 1
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: bUseThreadedMorpher
+      section: General
+      value: 1
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: bUseThreadedTempEffects
+      section: General
+      value: 1
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: bUseThreadedParticleSystem
+      section: General
+      value: 1
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: bUseMultiThreadedFaceGen
+      section: General
+      value: 1
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: bUseMultiThreadedTrees
+      section: General
+      value: 1
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: iPreloadSizeLimit
+      section: General
+      value: 104857600
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: fDefaultFOV
+      section: Display
+      value: 85
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: fDefaultWorldFOV
+      section: Display
+      value: 85
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: fDefault1stPersonFOV
+      section: Display
+      value: 65
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: fPipboy1stPersonFOV
+      section: Display
+      value: 50
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: iPresentInterval
+      section: Display
+      value: 0
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: bFull Screen
+      section: Display
+      value: 1
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: bMultiThreadAudio
+      section: Audio
+      value: 1
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: bEnableAudioCache
+      section: Audio
+      value: 1
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: iAudioCacheSize
+      section: Audio
+      value: 4096
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: iMaxSizeForCachedSound
+      section: Audio
+      value: 256
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: iRadioUpdateInterval
+      section: Audio
+      value: 1024
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: fForegroundMouseMult
+      section: Controls
+      value: 0
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: fForegroundMouseAccelBase
+      section: Controls
+      value: 0
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: fForegroundMouseAccelTop
+      section: Controls
+      value: 0
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: fForegroundMouseBase
+      section: Controls
+      value: 0
+  - write_config:
+      file: $GAMEDIR/drive_c/Fallout 3/Fallout_default.ini
+      key: bBackground Mouse
+      section: Controls
+      value: 1
+  - extract:
+      dst: $GAMEDIR/drive_c/Fallout 3
+      file: modpack
+  - extract:
+      dst: $GAMEDIR/drive_c/Fallout 3
+      file: launchmenu
+  - extract:
+      dst: $CACHE/laa-patcher
+      file: laa-patcher
+  - task:
+      arch: win64
+      args: /LARGEADDRESSAWARE Fallout3.exe
+      env:
+        __GL_SHADER_DISK_CACHE: '1'
+        __GL_SHADER_DISK_CACHE_PATH: /games/lutris/fallout3goty
+        __GL_THREADED_OPTIMIZATIONS: '1'
+        mesa_glthread: 'true'
+      executable: /home/kodi/.cache/lutris/installer/fallout-3-game-of-the-year-edition/laa-patcher/EDITBIN.EXE
+      prefix: /games/lutris/fallout3goty
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+      working_dir: /games/lutris/fallout3goty/drive_c/Fallout 3
+  - task:
+      arch: win64
+      args: --update --silent --game Fallout3
+      env:
+        __GL_SHADER_DISK_CACHE: '1'
+        __GL_SHADER_DISK_CACHE_PATH: /games/lutris/fallout3goty
+        __GL_THREADED_OPTIMIZATIONS: '1'
+        mesa_glthread: 'true'
+      executable: /games/lutris/fallout3goty/drive_c/Fallout 3/boss.exe
+      prefix: /games/lutris/fallout3goty
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - task:
+      arch: win64
+      key: WineDesktop
+      path: HKEY_CURRENT_USER\Software\Wine\Explorer\Desktops
+      prefix: /games/lutris/fallout3goty
+      value: 1280x720
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - task:
+      arch: win64
+      key: Desktop
+      path: HKEY_CURRENT_USER\Software\Wine\Explorer
+      prefix: /games/lutris/fallout3goty
+      value: WineDesktop
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - task:
+      arch: win64
+      prefix: /games/lutris/fallout3goty
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - execute:
+      command: 'rm -f "$GAMEDIR/drive_c/users/$USER/My Documents"
+
+        mkdir -pv "$GAMEDIR/drive_c/users/$USER/My Documents/My Games/Fallout3"
+
+        rm -f "$GAMEDIR/data"; ln -svrT "$GAMEDIR/drive_c/Fallout 3/Data" "$GAMEDIR/data"
+
+        rm -f "$GAMEDIR/config"; ln -svrT "$GAMEDIR/drive_c/users/$USER/My Documents/My
+        Games/Fallout3" "$GAMEDIR/config"
+
+        rm -f "$GAMEDIR/drive_c/users/$USER/My Documents/My Games/Fallout3/Saves"
+
+        $INPUT_CONFIG_LOCATION && (mkdir -pv "$HOME/Documents/My Games/Fallout3/Saves"
+        "$GAMEDIR/drive_c/users/$USER/My Documents/My Games/Fallout3"; ln -svT "$HOME/Documents/My
+        Games/Fallout3/Saves" "$GAMEDIR/drive_c/users/$USER/My Documents/My Games/Fallout3/Saves")
+
+        '
+  - task:
+      arch: win64
+      env:
+        __GL_SHADER_DISK_CACHE: '1'
+        __GL_SHADER_DISK_CACHE_PATH: /games/lutris/fallout3goty
+        __GL_THREADED_OPTIMIZATIONS: '1'
+        mesa_glthread: 'true'
+      exclude_processes: Fallout3.exe
+      executable: /games/lutris/fallout3goty/drive_c/Fallout 3/FalloutLauncher.exe
+      prefix: /games/lutris/fallout3goty
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  - task:
+      arch: win64
+      prefix: /games/lutris/fallout3goty
+      wine_path: /home/kodi/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+  system:
+    env:
+      __GL_SHADER_DISK_CACHE: '1'
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_THREADED_OPTIMIZATIONS: '1'
+      mesa_glthread: 'true'
+  wine:
+    Desktop: true
+    WineDesktop: 1280x720
+    overrides:
+      winegstreamer: disabled
+    version: lutris-7.2-2-x86_64
+service: gog
+service_id: 1454315831
+slug: fallout-3-game-of-the-year-ed-gog
+system:
+  env:
+    __GL_SHADER_DISK_CACHE: '1'
+    __GL_SHADER_DISK_CACHE_PATH: /games/lutris/fallout3goty
+    __GL_THREADED_OPTIMIZATIONS: '1'
+    mesa_glthread: 'true'
+variables: {}
+version: GOG
+wine:
+  Desktop: true
+  WineDesktop: 1280x720
+  overrides:
+    winegstreamer: disabled
+  version: lutris-7.2-2-x86_64
+year: 2009

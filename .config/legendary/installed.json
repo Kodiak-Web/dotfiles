@@ -1,0 +1,29 @@
+{
+  "adeae8bbfc94427db57c7dfecce3f1d4": {
+    "app_name": "adeae8bbfc94427db57c7dfecce3f1d4",
+    "base_urls": [],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "Launcher.exe",
+    "install_path": "/games/legendary/fallout3",
+    "install_size": 46199340963,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": "",
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": {
+      "args": "",
+      "ids": [
+        "DX10_Redist"
+      ],
+      "name": "",
+      "path": "Installers/DirectX/DXSETUP.exe"
+    },
+    "requires_ot": false,
+    "save_path": null,
+    "title": "Fallout 3: Game of the Year Edition",
+    "version": "1.8"
+  }
+}

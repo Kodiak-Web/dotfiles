@@ -1,0 +1,11 @@
+[$Version]
+update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_rememberregion.upd:spectacle-migrate-rememberregion
+
+[GuiConfig]
+captureDelay=1
+captureMode=5
+window-position=0,840
+
+[Save]
+lastSaveLocation=file:///home/kodi/Pictures/Screenshot_20221026_005848.png
+lastUsedSaveMode=Save

@@ -1,0 +1,208 @@
+{
+  "app_name": "e9c881bda9744b3b8513cd5419565a0d",
+  "app_title": "Darkest Dungeon\u00ae: The Musketeer",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "e9c881bda9744b3b8513cd5419565a0d",
+      "asset_id": "e9c881bda9744b3b8513cd5419565a0d",
+      "build_version": "25681.8",
+      "catalog_item_id": "ca9b737c67074a9e9b4e43a0b78a3caf",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "f512a8e4012243729e4b4d4cedda9b4b"
+      },
+      "namespace": "21916c391ae4425d8f6cce2382aebd0c"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "categories": [
+      {
+        "path": "public"
+      },
+      {
+        "path": "addons"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2020-12-16T02:04:55.052Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "MonitorPresence": {
+        "type": "STRING",
+        "value": "false"
+      },
+      "PresenceId": {
+        "type": "STRING",
+        "value": "21916c391ae4425d8f6cce2382aebd0c"
+      },
+      "RequirementsJson": {
+        "type": "STRING",
+        "value": "[]"
+      },
+      "UseAccessControl": {
+        "type": "STRING",
+        "value": "false"
+      }
+    },
+    "description": "Darkest Dungeon\u00ae: The Musketeer",
+    "developer": "Red Hook Studios",
+    "developerId": "o-w5yb6awebxmp362nvut3qd3xb4jmur",
+    "endOfSupport": false,
+    "entitlementName": "ca9b737c67074a9e9b4e43a0b78a3caf",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "ca9b737c67074a9e9b4e43a0b78a3caf",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1440,
+        "md5": "85a6bec21cc6de2d3d21266ddf6bc482",
+        "size": 812110,
+        "type": "DieselGameBox",
+        "uploadedDate": "2020-12-21T18:26:56.001Z",
+        "url": "https://cdn1.epicgames.com/21916c391ae4425d8f6cce2382aebd0c/item/EGS_DarkestDungeonTheMusketeer_RedHookStudios_DLC_S1-2560x1440-85a6bec21cc6de2d3d21266ddf6bc482.jpg",
+        "width": 2560
+      },
+      {
+        "height": 1600,
+        "md5": "09c129814201fa921fae23074dfde858",
+        "size": 690301,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2020-12-21T18:27:02.495Z",
+        "url": "https://cdn1.epicgames.com/21916c391ae4425d8f6cce2382aebd0c/item/EGS_DarkestDungeonTheMusketeer_RedHookStudios_DLC_S2-1200x1600-09c129814201fa921fae23074dfde858.jpg",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2020-12-25T15:12:15.345Z",
+    "mainGameItem": {
+      "ageGatings": {},
+      "categories": [
+        {
+          "path": "public"
+        },
+        {
+          "path": "games"
+        },
+        {
+          "path": "applications"
+        }
+      ],
+      "creationDate": "2020-11-21T00:49:57.388Z",
+      "customAttributes": {
+        "CanRunOffline": {
+          "type": "STRING",
+          "value": "true"
+        },
+        "CanSkipKoreanIdVerification": {
+          "type": "STRING",
+          "value": "true"
+        },
+        "CloudSaveFolder": {
+          "type": "STRING",
+          "value": "{UserDir}/Darkest/"
+        },
+        "FolderName": {
+          "type": "STRING",
+          "value": "DarkestDungeon"
+        },
+        "MaxSizeMB": {
+          "type": "STRING",
+          "value": "1000"
+        },
+        "MonitorPresence": {
+          "type": "STRING",
+          "value": "true"
+        },
+        "PresenceId": {
+          "type": "STRING",
+          "value": "21916c391ae4425d8f6cce2382aebd0c"
+        },
+        "RequirementsJson": {
+          "type": "STRING",
+          "value": "[]"
+        },
+        "UseAccessControl": {
+          "type": "STRING",
+          "value": "false"
+        }
+      },
+      "description": "Darkest Dungeon\u00ae",
+      "developer": "Red Hook Studios",
+      "developerId": "o-w5yb6awebxmp362nvut3qd3xb4jmur",
+      "endOfSupport": false,
+      "entitlementName": "b4eecf70e3fe4e928b78df7855a3fc2d",
+      "entitlementType": "EXECUTABLE",
+      "eulaIds": [
+        "egstore"
+      ],
+      "id": "b4eecf70e3fe4e928b78df7855a3fc2d",
+      "itemType": "DURABLE",
+      "keyImages": [
+        {
+          "height": 1440,
+          "md5": "2be182928926fc00b92de0af67f12898",
+          "size": 918803,
+          "type": "DieselGameBox",
+          "uploadedDate": "2020-12-21T18:22:39.619Z",
+          "url": "https://cdn1.epicgames.com/21916c391ae4425d8f6cce2382aebd0c/item/EGS_DarkestDungeon_RedHookStudios_S1-2560x1440-2be182928926fc00b92de0af67f12898.jpg",
+          "width": 2560
+        },
+        {
+          "height": 1600,
+          "md5": "1888311b95f43a3b02df2c452bd4ffee",
+          "size": 627134,
+          "type": "DieselGameBoxTall",
+          "uploadedDate": "2020-12-21T18:23:05.891Z",
+          "url": "https://cdn1.epicgames.com/21916c391ae4425d8f6cce2382aebd0c/item/EGS_DarkestDungeon_RedHookStudios_S2-1200x1600-1888311b95f43a3b02df2c452bd4ffee.jpg",
+          "width": 1200
+        }
+      ],
+      "lastModifiedDate": "2021-04-20T17:53:35.714Z",
+      "namespace": "21916c391ae4425d8f6cce2382aebd0c",
+      "releaseInfo": [
+        {
+          "appId": "36cbf259e631478eaac6ea244e55a709",
+          "dateAdded": "2020-11-21T00:00:00.000Z",
+          "id": "1270266062134a3580002c301bc635ba",
+          "platform": [
+            "Windows",
+            "Win32"
+          ]
+        }
+      ],
+      "requiresSecureAccount": false,
+      "status": "ACTIVE",
+      "title": "Darkest Dungeon\u00ae",
+      "unsearchable": true
+    },
+    "namespace": "21916c391ae4425d8f6cce2382aebd0c",
+    "releaseInfo": [
+      {
+        "appId": "e9c881bda9744b3b8513cd5419565a0d",
+        "dateAdded": "2020-11-21T00:00:00.000Z",
+        "id": "1270266062134a3580002c301bc635ba",
+        "platform": [
+          "Windows",
+          "Win32"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "Darkest Dungeon\u00ae: The Musketeer",
+    "unsearchable": true
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "app_name": "stargazer",
+  "app_title": "Magic The Gathering Arena",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "stargazer",
+      "asset_id": "stargazer",
+      "build_version": "4361.965897",
+      "catalog_item_id": "3debdea646834df18a900bcbe76b9013",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "5fdcc0dc67294af3be740f362bd976fd"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "public"
+      },
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2019-05-20T18:23:14.550Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "MagicTheGathering"
+      },
+      "RequirementsJson": {
+        "type": "STRING",
+        "value": "{}"
+      },
+      "UseAccessControl": {
+        "type": "STRING",
+        "value": "false"
+      }
+    },
+    "description": "Magic The Gathering Arena",
+    "developer": "Wizards of the Coast",
+    "developerId": "o-xlb74ml56wsa5dcfcgrpvu4ywndlmm",
+    "endOfSupport": false,
+    "entitlementName": "3debdea646834df18a900bcbe76b9013",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "3debdea646834df18a900bcbe76b9013",
+    "installModes": [],
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1440,
+        "md5": "8c5241cf0d667c3fdb33e83a7ae2dca4",
+        "size": 596987,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2020-01-16T20:57:11.113Z",
+        "url": "https://cdn1.epicgames.com/5fdcc0dc67294af3be740f362bd976fd/item/MTG_Store-2560x1440-8c5241cf0d667c3fdb33e83a7ae2dca4.jpg",
+        "width": 2560
+      },
+      {
+        "height": 1440,
+        "md5": "8c5241cf0d667c3fdb33e83a7ae2dca4",
+        "size": 596987,
+        "type": "DieselGameBox",
+        "uploadedDate": "2020-01-16T20:57:22.384Z",
+        "url": "https://cdn1.epicgames.com/5fdcc0dc67294af3be740f362bd976fd/item/MTG_Store-2560x1440-8c5241cf0d667c3fdb33e83a7ae2dca4.jpg",
+        "width": 2560
+      },
+      {
+        "height": 200,
+        "md5": "2398d066e3fc892e44d8aabbbba911ed",
+        "size": 3408,
+        "type": "DieselGameBoxLogo",
+        "uploadedDate": "2020-01-16T20:57:39.899Z",
+        "url": "https://cdn1.epicgames.com/5fdcc0dc67294af3be740f362bd976fd/item/MTG_logo-260x200-2398d066e3fc892e44d8aabbbba911ed.png",
+        "width": 260
+      }
+    ],
+    "lastModifiedDate": "2021-08-17T18:19:08.270Z",
+    "namespace": "5fdcc0dc67294af3be740f362bd976fd",
+    "releaseInfo": [
+      {
+        "appId": "stargazer",
+        "dateAdded": "2019-08-15T00:00:00.000Z",
+        "id": "93a743a675d0498d92116582f0a737ff",
+        "platform": [
+          "Windows",
+          "Mac",
+          "Win32"
+        ]
+      }
+    ],
+    "selfRefundable": true,
+    "status": "ACTIVE",
+    "title": "Magic The Gathering Arena",
+    "unsearchable": false
+  }
+}

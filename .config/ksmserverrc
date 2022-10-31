@@ -1,0 +1,35 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=108edfd6d1000166719159000000351660004
+clientId2=108edfd6d1000166686850900000010990015
+clientId3=108edfd6d1000166702138600000012200015
+clientId4=108edfd6d1000166702723900000012200016
+clientId5=108edfd6d1000166719221300000351660005
+count=5
+discardCommand4[$e]=rm,$HOME/.config/session/dolphin_108edfd6d1000166702723900000012200016_1667192530_413046
+discardCommand5[$e]=rm,$HOME/.config/session/systemsettings_108edfd6d1000166719221300000351660005_1667192530_412994
+program1=/usr/lib/DiscoverNotifier
+program2=/usr/bin/qbittorrent
+program3=firefox
+program4=/usr/bin/dolphin
+program5=/usr/bin/systemsettings
+restartCommand1=/usr/lib/DiscoverNotifier,-session,108edfd6d1000166719159000000351660004_1667192530_412992
+restartCommand2=/usr/bin/qbittorrent,-session,108edfd6d1000166686850900000010990015_1667192530_412971
+restartCommand3=/usr/lib/firefox/firefox,--sm-client-id,108edfd6d1000166702138600000012200015
+restartCommand4=/usr/bin/dolphin,-session,108edfd6d1000166702723900000012200016_1667192530_413046
+restartCommand5=/usr/bin/systemsettings,-session,108edfd6d1000166719221300000351660005_1667192530_412994
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+restartStyleHint4=0
+restartStyleHint5=0
+userId1=kodi
+userId2=kodi
+userId3=kodi
+userId4=kodi
+userId5=kodi

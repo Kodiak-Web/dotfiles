@@ -1,0 +1,39 @@
+[General Settings]
+First Time=false
+Open Images in the Same Window=false
+
+[KFileDialog Settings]
+detailViewIconSize=16
+
+[MainWindow]
+DP-2 HDMI-0=DP-2
+DP-2 HDMI-0 Height 1920x1080 DP-2=792
+DP-2 HDMI-0 Width 1920x1080 DP-2=640
+DP-2 HDMI-0 Window-Maximized 1080x1920 HDMI-0=true
+DP-2 HDMI-0 XPosition 1920x1080 DP-2=1044
+DP-2 HDMI-0 YPosition 1920x1080 DP-2=959
+State=AAAA/wAAAAD9AAAAAQAAAAMAAAPoAAAAbvwBAAAAAfsAAAASAEMAbwBsAG8AcgAgAEIAbwB4AQAAAFAAAAPoAAACEgEAAAMAAAPoAAAGYAAAAAQAAAAEAAAAAQAAAAL8AAAAAgAAAAAAAAABAAAAEABUAG8AbwBsACAAQgBvAHgDAAAAAP////8AAAAAAAAAAAAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABYAdABlAHgAdABUAG8AbwBsAEIAYQByAAAAAVz/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+
+[MainWindow][Toolbar Tool Box]
+ToolButtonStyle=IconOnly
+
+[Tool Settings]
+Last Used Tool=1
+Tool Widget Brush Col=0
+Tool Widget Brush Row=0
+Tool Widget Eraser Size Col=0
+Tool Widget Eraser Size Row=1
+Tool Widget Fill Style Col=0
+Tool Widget Fill Style Row=0
+Tool Widget Line Width Col=0
+Tool Widget Line Width Row=0
+Tool Widget Opaque/Transparent Col=0
+Tool Widget Opaque/Transparent Row=0
+Tool Widget Spraycan Size Col=0
+Tool Widget Spraycan Size Row=0
+
+[Undo/Redo Settings]
+Max Limit=500
+Max Limit Size Limit=16777216
+Min Limit=10
