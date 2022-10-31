@@ -5,5 +5,5 @@
     ~/.bashrc: bashrc
     ~/.bash_logout: bash_logout
     ~/.zshrc: zshrc
-
+    ~/.zsh: .zsh
 
