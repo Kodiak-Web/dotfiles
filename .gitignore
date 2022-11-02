@@ -1,2 +1,4 @@
 .config/discordcanary/
 .config/chromium/
+.config/Electron/
+.config/VSCodium/

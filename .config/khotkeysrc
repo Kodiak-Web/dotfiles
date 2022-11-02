@@ -1083,6 +1083,10 @@ Key=Media Previous
 Type=SHORTCUT
 Uuid={ae004344-ab03-45a9-8ee6-0d2f2b17429b}
 
+[DirSelect Dialog]
+DirSelectDialog Size[$d]
+History Items[$d]
+
 [General]
 BrowserApplication[$d]
 ColorScheme[$d]

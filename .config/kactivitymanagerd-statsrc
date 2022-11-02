@@ -1,3 +1,9 @@
+[Favorites-org.kde.plasma.kicker.favorites.instance-26-05cc28db-c051-447d-9af5-f10b44da2256]
+ordering=preferred://browser,applications:vscodium.desktop,applications:org.qbittorrent.qBittorrent.desktop
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-26-global]
+ordering=preferred://browser,applications:vscodium.desktop,applications:org.qbittorrent.qBittorrent.desktop
+
 [Favorites-org.kde.plasma.kickoff.favorites.instance-4-05cc28db-c051-447d-9af5-f10b44da2256]
 ordering=preferred://browser,org.kde.kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,ktp-contactlist.desktop,org.kde.discover.desktop
 

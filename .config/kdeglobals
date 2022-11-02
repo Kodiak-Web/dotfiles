@@ -110,17 +110,18 @@ ForegroundVisited=61,111,171
 
 [DirSelect Dialog]
 DirSelectDialog Size=899,618
-History Items[$e]=file:$HOME/.config/,file:$HOME/.zsh
+History Items[$e]=file:$HOME/.config/,file:$HOME/.config/Electron/,file:$HOME/.config/,file:$HOME/.git/Kodiak-Web/,file:$HOME/.config/,file:$HOME/.zsh
 
 [General]
 BrowserApplication=firefox.desktop
 ColorSchemeHash=f73aae26ac5736ad1014a1f0e983b176f68debcb
 
 [Icons]
-Theme=breeze-dark
+Theme=Papirus-Colors-Dark
 
 [KDE]
 LookAndFeelPackage=leaf-dark
+ShowDeleteCommand=false
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -147,6 +148,9 @@ ScreenScaleFactors=DP-0=1;DP-1=1;HDMI-0=1;DP-2=1;DP-3=1;DP-4=1;
 
 [KShortcutsDialog Settings]
 Dialog Size=626,480
+
+[PreviewSettings]
+MaximumRemoteSize=0
 
 [WM]
 activeBackground=46,44,47
