@@ -4,7 +4,8 @@ update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_remember
 [GuiConfig]
 captureDelay=1
 captureMode=5
-window-position=0,840
+cropRegion=0,909,1916,937
+window-position=542,1017
 
 [Save]
 lastSaveLocation=file:///home/kodi/Pictures/Screenshot_20221026_005848.png

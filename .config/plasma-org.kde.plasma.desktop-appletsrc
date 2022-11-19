@@ -16,15 +16,23 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][1][ConfigDialog]
+DialogHeight=840
+DialogWidth=1120
+
 [Containments][1][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=240
 
+[Containments][1][Wallpaper][org.kde.image][General]
+Image=/tmp/wallpaper/wall1.png
+SlidePaths=/home/kodi/.local/share/wallpapers/,/usr/share/wallpapers/
+
 [Containments][2]
-ItemGeometries-1080x1920=Applet-57:0,656,1072,880,0;Applet-43:0,1536,400,384,0;Applet-58:0.4624,16,576,640,0;Applet-45:400,1536,320,384,0;Applet-41:576,16,496,640,0;Applet-42:720,1536,352,384,0;
+ItemGeometries-1080x1920=Applet-57:0,0,1072,912,0;Applet-58:0,912,576,624,0;Applet-41:576,912,496,624,0;Applet-43:0,1536,400,384,0;Applet-45:400,1536,320,384,0;Applet-42:720,1536,352,384,0;
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
-ItemGeometriesVertical=Applet-57:0,656,1072,880,0;Applet-43:0,1536,400,384,0;Applet-58:0.4624,16,576,640,0;Applet-45:400,1536,320,384,0;Applet-41:576,16,496,640,0;Applet-42:720,1536,352,384,0;
+ItemGeometriesVertical=Applet-57:0,0,1072,912,0;Applet-58:0,912,576,624,0;Applet-41:576,912,496,624,0;Applet-43:0,1536,400,384,0;Applet-45:400,1536,320,384,0;Applet-42:720,1536,352,384,0;
 activityId=05cc28db-c051-447d-9af5-f10b44da2256
 formfactor=0
 immutability=1
@@ -139,7 +147,7 @@ colorscheme=4
 colorschemetext=DarkPastels
 fontfamily=FiraCode Nerd Font Mono
 fontsize=10
-height=846
+height=878
 width=1038
 
 [Containments][2][Applets][57][Configuration][ConfigDialog]
@@ -158,7 +166,7 @@ colorscheme=4
 colorschemetext=DarkPastels
 fontfamily=FiraCode Nerd Font Mono
 fontsize=10
-height=606
+height=590
 width=542
 
 [Containments][2][Applets][58][Configuration][ConfigDialog]
@@ -166,7 +174,7 @@ DialogHeight=840
 DialogWidth=1120
 
 [Containments][2][Applets][58][Configuration][Execute]
-command=zsh -c spot
+command=zsh
 
 [Containments][2][General]
 ToolBoxButtonState=top
@@ -198,8 +206,14 @@ PreloadWeight=100
 popupHeight=676
 popupWidth=865
 
+[Containments][3][Applets][26][Configuration][ConfigDialog]
+DialogHeight=840
+DialogWidth=1120
+
 [Containments][3][Applets][26][Configuration][General]
+customButtonImage=/home/kodi/.local/img/launcher.svg
 favoritesPortedToKAstats=true
+useCustomButtonImage=true
 
 [Containments][3][Applets][26][Configuration][Shortcuts]
 global=Alt+F1
@@ -215,6 +229,10 @@ plugin=org.kde.plasma.pager
 immutability=1
 plugin=org.kde.plasma.mediacontrollercompact
 
+[Containments][3][Applets][50][Configuration][ConfigDialog]
+DialogHeight=840
+DialogWidth=1120
+
 [Containments][3][Applets][52]
 immutability=1
 plugin=alexankitty.fancytasks
@@ -227,6 +245,8 @@ DialogWidth=1120
 buttonColorize=true
 buttonColorizeCustom=#ffffff
 groupIconEnabled=0
+groupingAppIdBlacklist=\\0
+groupingLauncherUrlBlacklist=file:///usr/lib/jvm/java-17-openjdk/bin/java
 indicatorAccentColor=false
 indicatorCustomColor=#ffffff
 indicatorDesaturate=true
@@ -290,7 +310,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][9][Applets][13][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][9][Applets][14]
 immutability=1
@@ -315,6 +335,9 @@ PreloadWeight=100
 DialogHeight=840
 DialogWidth=1120
 
+[Containments][9][Applets][17][Configuration][General]
+currentTab=streams
+
 [Containments][9][Applets][18]
 immutability=1
 plugin=org.kde.plasma.vault
@@ -331,7 +354,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][9][Applets][22][Configuration]
-PreloadWeight=55
+PreloadWeight=65
 
 [Containments][9][Applets][23]
 immutability=1
@@ -354,4 +377,4 @@ shownItems=org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.bluetooth
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/steam.desktop,0,05cc28db-c051-447d-9af5-f10b44da2256
+screenMapping=desktop:/steam.desktop,0,05cc28db-c051-447d-9af5-f10b44da2256,desktop:/com.blackmagicdesign.resolve.desktop,0,05cc28db-c051-447d-9af5-f10b44da2256

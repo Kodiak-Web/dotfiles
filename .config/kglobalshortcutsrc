@@ -29,6 +29,7 @@ _k_friendly_name=Custom Shortcuts Service
 {9e560454-d065-48cb-a4f1-00053dafb14a}=Media Next,none,Next
 {ae004344-ab03-45a9-8ee6-0d2f2b17429b}=Media Previous,none,Previous
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
+{f50e041d-a986-4d3c-b56c-94216b9dc7e1}=Ctrl+`,none,Kuake
 
 [kmix]
 _k_friendly_name=Audio Volume
@@ -285,4 +286,4 @@ screenlocker=none,none,Screen Locking
 
 [yakuake]
 _k_friendly_name=Yakuake
-toggle-window-state=Ctrl+`,F12,Open/Retract Yakuake
+toggle-window-state=none,F12,Open/Retract Yakuake

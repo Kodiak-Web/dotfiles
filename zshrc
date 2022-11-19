@@ -33,13 +33,15 @@ setopt EXTENDED_HISTORY
 bindkey '\e[A' history-search-backward
 bindkey '\e[B' history-search-forward
 path+=('/home/kodi/.cargo/bin/')
+
+eval "$(zoxide init zsh)"
 znap source ohmyzsh/ohmyzsh lib/{git,theme-and-appearance}
 znap prompt ohmyzsh/ohmyzsh lukerandall
-znap source agkozak/zsh-z
+#znap source agkozak/zsh-z replaced by zoxide
+znap source fdw/ranger-zoxide
 znap source zsh-users/zsh-autosuggestions
 ## run every file in .zsh
 for x in ~/.zsh/*.zsh
 do
 	. $x
 done
-		

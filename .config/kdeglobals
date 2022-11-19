@@ -115,18 +115,19 @@ History Items[$e]=file:$HOME/.config/,file:$HOME/.config/Electron/,file:$HOME/.c
 [General]
 BrowserApplication=firefox.desktop
 ColorSchemeHash=f73aae26ac5736ad1014a1f0e983b176f68debcb
-
-[Icons]
-Theme=Papirus-Colors-Dark
+XftHintStyle=hintslight
+XftSubPixel=rgb
+fixed=FiraCode Nerd Font,10,-1,5,50,0,0,0,0,0
 
 [KDE]
 LookAndFeelPackage=leaf-dark
 ShowDeleteCommand=false
+widgetStyle=Breeze
 
 [KFileDialog Settings]
 Allow Expansion=false
 Automatically select filename extension=true
-Breadcrumb Navigation=true
+Breadcrumb Navigation=false
 Decoration position=2
 LocationCombo Completionmode=5
 PathCombo Completionmode=5

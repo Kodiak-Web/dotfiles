@@ -1,0 +1,28 @@
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[General]
+LastUsedVersion=210800
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=32
+
+[MainWindow]
+DP-2 HDMI-0=DP-2
+DP-2 HDMI-0 Height 1920x1080 DP-2=480
+DP-2 HDMI-0 Width 1920x1080 DP-2=755
+DP-2 HDMI-0 XPosition 1920x1080 DP-2=640
+DP-2 HDMI-0 YPosition 1920x1080 DP-2=1133
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAvMAAAGsAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Pictures/Screenshot_20221026_005848.png
+File2[$e]=$HOME/Pictures/funky.png
+Name1[$e]=Screenshot_20221026_005848.png
+Name2[$e]=funky.png
+
+[SideBar]
+SideBarSplitterSizes=213,541

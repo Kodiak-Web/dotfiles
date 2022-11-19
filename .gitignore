@@ -2,3 +2,12 @@
 .config/chromium/
 .config/Electron/
 .config/VSCodium/
+.config/idkr/
+.config/legendary/
+.config/ranger/plugins/__pycache__/
+.config/ranger/plugins/__init__.py
+.config/ranger/plugins/commands**
+.config/session/
+.config/unity3d/
+.config/ghb/
+.config/ncspot/userstate.cbor
