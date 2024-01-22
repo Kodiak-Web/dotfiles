@@ -3,8 +3,7 @@ update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_remember
 
 [GuiConfig]
 captureDelay=1
-captureMode=5
-cropRegion=0,909,1916,937
+captureMode=0
 window-position=542,1017
 
 [Save]

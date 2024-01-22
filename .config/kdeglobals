@@ -109,12 +109,13 @@ ForegroundPositive=114,155,121
 ForegroundVisited=61,111,171
 
 [DirSelect Dialog]
-DirSelectDialog Size=899,618
-History Items[$e]=file:$HOME/.config/,file:$HOME/.config/Electron/,file:$HOME/.config/,file:$HOME/.git/Kodiak-Web/,file:$HOME/.config/,file:$HOME/.zsh
+DirSelectDialog Size=903,618
+History Items[$e]=file:///run/media/kodi/2TB drive,file:$HOME/.config/,file:$HOME/.config/Electron/,file:$HOME/.config/,file:$HOME/.git/Kodiak-Web/,file:$HOME/.config/,file:$HOME/.zsh
 
 [General]
-BrowserApplication=firefox.desktop
+BrowserApplication=chromium.desktop
 ColorSchemeHash=f73aae26ac5736ad1014a1f0e983b176f68debcb
+TerminalService=
 XftHintStyle=hintslight
 XftSubPixel=rgb
 fixed=FiraCode Nerd Font,10,-1,5,50,0,0,0,0,0
@@ -137,7 +138,7 @@ Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
 Show hidden files=true
-Sort by=Size
+Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false

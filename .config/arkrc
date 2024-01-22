@@ -1,8 +1,12 @@
 [ExtractDialog]
 DirHistory[$e]=$HOME/Downloads/
 
+[General]
+LockSidebar=true
+ShowSidebar=true
+
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME
+Recent Files[$e]=file:$HOME,file:$HOME/Downloads/uncraft_quartz.json
 Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/
 detailViewIconSize=16
 
@@ -120,12 +124,16 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [MainWindow]
-DP-2 HDMI-0=DP-2
+2 screens: Height=600
+2 screens: Width=950
+2 screens: XPosition=805
+2 screens: YPosition=418
+DP-2 HDMI-0=HDMI-0
 DP-2 HDMI-0 Height 1920x1080 DP-2=696
 DP-2 HDMI-0 Width 1920x1080 DP-2=1109
 DP-2 HDMI-0 XPosition 1920x1080 DP-2=32
 DP-2 HDMI-0 YPosition 1920x1080 DP-2=1170
-State=AAAA/wAAAAD9AAAAAAAABFUAAAJcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAQAAAAEAAADwAAACJPwCAAAAAfsAAAAWAGEAcgBrAF8AcwBpAGQAZQBiAGEAcgEAAAA0AAACJAAAAIYBAAACAAACxQAAAiQAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 StatusBar=Disabled
 ToolBarsMovable=Disabled
 splitterSizes=739,369

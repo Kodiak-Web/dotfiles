@@ -77,6 +77,7 @@ Dynamic Word Wrap Align Indent=80
 Dynamic Word Wrap At Static Marker=false
 Dynamic Word Wrap Indicators=1
 Dynamic Wrap not at word boundaries=false
+Enable Tab completion=false
 Fold First Line=false
 Folding Bar=true
 Folding Preview=true
@@ -124,6 +125,8 @@ Word Completion Remove Tail=true
 Search History=shear,run-,directx
 
 [MainWindow]
+2 screens: Height=877
+2 screens: Width=1057
 DP-2 HDMI-0 Height 1080x1920 HDMI-0=1879
 DP-2 HDMI-0 Height 1920x1080 DP-2=985
 DP-2 HDMI-0 Width 1080x1920 HDMI-0=1080
