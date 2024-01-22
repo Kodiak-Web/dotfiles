@@ -38,7 +38,7 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=528
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///home/kodi/.config/variety/wallpaper/wallpaper-zoomed-157f86e5c48a16fc36873ec7647b2252.jpg
+Image=file:///home/kodi/.config/variety/wallpaper/wallpaper-zoomed-127c69e816d5d1ca9e740996ba810de4.jpg
 SlidePaths=/home/kodi/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][2]
@@ -81,7 +81,7 @@ ToolBoxButtonState=top
 ToolBoxButtonX=140
 
 [Containments][2][Wallpaper][org.kde.image][General]
-Image=file:///home/kodi/.config/variety/wallpaper/wallpaper-zoomed-157f86e5c48a16fc36873ec7647b2252.jpg
+Image=file:///home/kodi/.config/variety/wallpaper/wallpaper-zoomed-127c69e816d5d1ca9e740996ba810de4.jpg
 
 [Containments][3]
 activityId=
