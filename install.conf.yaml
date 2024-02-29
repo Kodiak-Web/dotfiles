@@ -6,6 +6,7 @@
     ~/.bash_logout: bash_logout
     ~/.zshrc: zshrc
     ~/.zsh: .zsh
+    ~/.config/sway: sway
     ~/.vimrc: vimrc
     ~/.config/kitty/kitty.conf: kitty.conf    
 
