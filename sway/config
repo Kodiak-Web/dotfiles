@@ -4,7 +4,7 @@
 #
 # Read `man 5 sway` for a complete reference.
 
-##current dependencies(2024-02-24): rot8, grimshot,brightnessctl,i3status.
+##current dependencies(2024-02-28): rot8, grimshot,brightnessctl,waybar.
 
 
 ##fix gtk apps taking 20 seconds to launch
@@ -64,6 +64,11 @@ output * bg #000000 solid_color
 #
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
+
+input * {
+    xkb_options compose:caps
+}
+input 1267:16831:ELAN2514:00_04F3:41BF map_to_output eDP-1
 
 
 ##Audio control.
@@ -231,16 +236,15 @@ bindsym $mod+r mode "resize"
 #        inactive_workspace #32323200 #32323200 #5c5c5c
 #    }
 #}
-bar {    
-    swaybar_command waybar
-}
+#bar {    
+#    swaybar_command waybar
+#}
 bindsym Print exec grimshot save area
 
 
 
 ##bind touchscreen to associated screen.
 ##run "swaymsg -t list-{input/output}s" to find your device ids. 
-exec swaymsg input 1267:16831:ELAN2514:00_04F3:41BF map_to_output eDP-1
 exec /home/kodi/.cargo/bin/rot8
 
 include /etc/sway/config.d/*

@@ -28,4 +28,6 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 set mouse=a
 set expandtab
 set tabstop=4
+set shiftwidth=4
+set hidden
 color material-monokai

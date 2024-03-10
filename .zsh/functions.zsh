@@ -45,4 +45,10 @@ function ranger_func {
     fi
 }
 
+function gpprun {
+        args= 
+        g++ "$1" -o "$1.out"
+        "./$1.out" #"${@:1}" #i need to either figure out how to get this working or rewrite this in another language.
+}
+
 alias ranger='ranger_func'

@@ -36,13 +36,14 @@ setopt EXTENDED_HISTORY
 setopt AUTO_CD
 bindkey '\e[A' history-search-backward
 bindkey '\e[B' history-search-forward
-path+=('/home/kodi/.cargo/bin/')
-
+path+=("$HOME/.cargo/bin/")
+path+=("$HOME/.local/bin")
 eval "$(zoxide init zsh)"
 znap source mjrafferty/apollo-zsh-theme 
 #znap source agkozak/zsh-z replaced by zoxide
 znap source fdw/ranger-zoxide
 znap source zsh-users/zsh-autosuggestions
+znap source arzzen/calc.plugin.zsh
 ## run every file in .zsh
 for x in ~/.zsh/*.zsh
 do

@@ -3,6 +3,7 @@ alias starch="strat arch"
 alias ls=lsd
 alias -s zsh=vim
 alias -s zshrc=vim
+alias cd=z
 #alias chx="chmod +x !!"
 alias pacman=paru
 alias yay=paru
