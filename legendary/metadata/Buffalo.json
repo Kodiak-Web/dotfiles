@@ -1,0 +1,98 @@
+{
+  "app_name": "Buffalo",
+  "app_title": "Super Meat Boy",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "Buffalo",
+      "asset_id": "Buffalo",
+      "build_version": "1.2.5.3",
+      "catalog_item_id": "7eb5bc9ec16542c7bb31874ceaad410f",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "buffalo"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2018-12-05T00:56:20.329Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "SuperMeatBoy"
+      },
+      "MonitorPresence": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "PresenceId": {
+        "type": "STRING",
+        "value": "buffalo"
+      }
+    },
+    "description": "Super Meat Boy",
+    "developer": "Team Meat",
+    "developerId": "o-mj7q3aaq5djq6wuddnrr5mgqjsk2da",
+    "endOfSupport": false,
+    "entitlementName": "7eb5bc9ec16542c7bb31874ceaad410f",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "7eb5bc9ec16542c7bb31874ceaad410f",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1600,
+        "md5": "6e56cb53e50b2ff210a8a16482f4bda9",
+        "size": 1218887,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2024-01-24T15:46:02.028Z",
+        "url": "https://cdn1.epicgames.com/item/buffalo/supermeatboytall_1200x1600-6e56cb53e50b2ff210a8a16482f4bda9",
+        "width": 1200
+      },
+      {
+        "height": 1456,
+        "md5": "f942b4b5334daa65407fc1b5a9c344ec",
+        "size": 1494017,
+        "type": "DieselGameBox",
+        "uploadedDate": "2024-01-24T15:46:05.273Z",
+        "url": "https://cdn1.epicgames.com/item/buffalo/supermeatboywide_2580x1456-f942b4b5334daa65407fc1b5a9c344ec",
+        "width": 2580
+      }
+    ],
+    "lastModifiedDate": "2024-01-24T15:46:09.681Z",
+    "namespace": "buffalo",
+    "releaseInfo": [
+      {
+        "appId": "Buffalo",
+        "compatibleApps": [],
+        "dateAdded": "2018-12-10T00:00:00.000Z",
+        "id": "b5d51d986145450e956f8ff8cb022e8d",
+        "platform": [
+          "Windows",
+          "Win32"
+        ],
+        "releaseNote": "",
+        "versionTitle": ""
+      }
+    ],
+    "selfRefundable": true,
+    "status": "ACTIVE",
+    "title": "Super Meat Boy",
+    "unsearchable": false
+  }
+}

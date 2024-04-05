@@ -1,0 +1,606 @@
+{
+  "app_name": "711c5e95dc094ca58e5f16bd48e751d6",
+  "app_title": "MultiVersus",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "711c5e95dc094ca58e5f16bd48e751d6",
+      "asset_id": "711c5e95dc094ca58e5f16bd48e751d6",
+      "build_version": "80480",
+      "catalog_item_id": "c6c05c82429a410384fb5ac46f4ecfde",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "3a212c0da4f1438e840c21565df4b6fe"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "public"
+      },
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2021-12-08T17:22:05.893Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "Multiversus"
+      },
+      "RequirementsJson": {
+        "type": "STRING",
+        "value": "[]"
+      },
+      "UseAccessControl": {
+        "type": "STRING",
+        "value": "false"
+      }
+    },
+    "description": "MultiVersus",
+    "developer": "Warner Bros.",
+    "developerId": "o-7kyv8uwtz74njnl544kbxzt5xqephw",
+    "dlcItemList": [
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2022-06-06T20:14:50.571Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "DokkenVC2 audience",
+        "developer": "Warner Bros.",
+        "developerId": "o-7kyv8uwtz74njnl544kbxzt5xqephw",
+        "endOfSupport": false,
+        "entitlementName": "5d19f1b6b62c4faebb321ccab695a50e",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "5d19f1b6b62c4faebb321ccab695a50e",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2023-12-08T20:35:34.863Z",
+        "mainGameItem": {
+          "id": "c6c05c82429a410384fb5ac46f4ecfde",
+          "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+          "unsearchable": false
+        },
+        "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "DokkenVC2 audience",
+        "unsearchable": true,
+        "useCount": 1
+      },
+      {
+        "ageGatings": {},
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2022-06-06T20:31:17.510Z",
+        "customAttributes": {
+          "CanRunOffline": {
+            "type": "STRING",
+            "value": "true"
+          }
+        },
+        "description": "Dokken FP1",
+        "developer": "Warner Bros.",
+        "developerId": "o-7kyv8uwtz74njnl544kbxzt5xqephw",
+        "endOfSupport": false,
+        "entitlementName": "99a72ace1e274a3c8ffb0e756491abed",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "99a72ace1e274a3c8ffb0e756491abed",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2022-07-26T15:57:21.371Z",
+        "mainGameItem": {
+          "id": "c6c05c82429a410384fb5ac46f4ecfde",
+          "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+          "unsearchable": false
+        },
+        "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+        "releaseInfo": [],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Dokken FP1",
+        "unsearchable": true,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2022-06-06T20:27:32.113Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "DokkenVC4 audience",
+        "developer": "Warner Bros.",
+        "developerId": "o-7kyv8uwtz74njnl544kbxzt5xqephw",
+        "endOfSupport": false,
+        "entitlementName": "a24b461ecfab4288a61fefa43cd1f06d",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "a24b461ecfab4288a61fefa43cd1f06d",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2023-12-08T20:35:34.864Z",
+        "mainGameItem": {
+          "id": "c6c05c82429a410384fb5ac46f4ecfde",
+          "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+          "unsearchable": false
+        },
+        "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "DokkenVC4 audience",
+        "unsearchable": true,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2022-06-06T20:13:53.616Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "DokkenVC1 audience",
+        "developer": "Warner Bros.",
+        "developerId": "o-7kyv8uwtz74njnl544kbxzt5xqephw",
+        "endOfSupport": false,
+        "entitlementName": "5e48c990350a45ccafeaf17c3ebf8fc6",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "5e48c990350a45ccafeaf17c3ebf8fc6",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2023-12-08T20:35:34.863Z",
+        "mainGameItem": {
+          "id": "c6c05c82429a410384fb5ac46f4ecfde",
+          "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+          "unsearchable": false
+        },
+        "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "DokkenVC1 audience",
+        "unsearchable": true,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2022-06-06T20:28:00.846Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "DokkenVC5 audience",
+        "developer": "Warner Bros.",
+        "developerId": "o-7kyv8uwtz74njnl544kbxzt5xqephw",
+        "endOfSupport": false,
+        "entitlementName": "27dc640446bd49c0af012bd22d3a6025",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "27dc640446bd49c0af012bd22d3a6025",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2022-07-26T15:57:21.369Z",
+        "mainGameItem": {
+          "id": "c6c05c82429a410384fb5ac46f4ecfde",
+          "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+          "unsearchable": false
+        },
+        "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "DokkenVC5 audience",
+        "unsearchable": true,
+        "useCount": 1
+      },
+      {
+        "ageGatings": {},
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2022-06-06T20:31:44.988Z",
+        "customAttributes": {
+          "CanRunOffline": {
+            "type": "STRING",
+            "value": "true"
+          }
+        },
+        "description": "Dokken FP2",
+        "developer": "Warner Bros.",
+        "developerId": "o-7kyv8uwtz74njnl544kbxzt5xqephw",
+        "endOfSupport": false,
+        "entitlementName": "390ac103267843acabc687b98c8bbae2",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "390ac103267843acabc687b98c8bbae2",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2022-07-26T15:57:21.372Z",
+        "mainGameItem": {
+          "id": "c6c05c82429a410384fb5ac46f4ecfde",
+          "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+          "unsearchable": false
+        },
+        "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+        "releaseInfo": [],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Dokken FP2",
+        "unsearchable": true,
+        "useCount": 1
+      },
+      {
+        "ageGatings": {},
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2022-06-06T20:32:07.671Z",
+        "customAttributes": {
+          "CanRunOffline": {
+            "type": "STRING",
+            "value": "true"
+          }
+        },
+        "description": "Dokken FP3",
+        "developer": "Warner Bros.",
+        "developerId": "o-7kyv8uwtz74njnl544kbxzt5xqephw",
+        "endOfSupport": false,
+        "entitlementName": "558770bf98194384a75dca20a3078b15",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "558770bf98194384a75dca20a3078b15",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2022-07-26T15:57:21.372Z",
+        "mainGameItem": {
+          "id": "c6c05c82429a410384fb5ac46f4ecfde",
+          "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+          "unsearchable": false
+        },
+        "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+        "releaseInfo": [],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Dokken FP3",
+        "unsearchable": true,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2022-06-06T20:15:35.088Z",
+        "customAttributes": {
+          "SupportedPlatforms": {
+            "type": "STRING",
+            "value": "Windows"
+          }
+        },
+        "description": "DokkenVC3 audience",
+        "developer": "Warner Bros.",
+        "developerId": "o-7kyv8uwtz74njnl544kbxzt5xqephw",
+        "endOfSupport": false,
+        "entitlementName": "0fc77cd16e4e45dfaba31531fb44e1d4",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "0fc77cd16e4e45dfaba31531fb44e1d4",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2023-12-08T20:35:34.862Z",
+        "mainGameItem": {
+          "id": "c6c05c82429a410384fb5ac46f4ecfde",
+          "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+          "unsearchable": false
+        },
+        "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "DokkenVC3 audience",
+        "unsearchable": true,
+        "useCount": 1
+      },
+      {
+        "ageGatings": {},
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2023-01-23T18:05:42.802Z",
+        "customAttributes": {
+          "CanRunOffline": {
+            "type": "STRING",
+            "value": "true"
+          }
+        },
+        "description": "Dokken SP1",
+        "developer": "Warner Bros.",
+        "developerId": "o-7kyv8uwtz74njnl544kbxzt5xqephw",
+        "endOfSupport": false,
+        "entitlementName": "fb6da57b90f44d1fa9e355b0c6b5f64c",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "fb6da57b90f44d1fa9e355b0c6b5f64c",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2023-01-23T18:05:42.802Z",
+        "mainGameItem": {
+          "id": "c6c05c82429a410384fb5ac46f4ecfde",
+          "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+          "unsearchable": false
+        },
+        "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+        "releaseInfo": [],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Dokken SP1",
+        "unsearchable": true,
+        "useCount": 1
+      },
+      {
+        "ageGatings": {},
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2023-01-23T18:13:15.085Z",
+        "customAttributes": {
+          "CanRunOffline": {
+            "type": "STRING",
+            "value": "true"
+          }
+        },
+        "description": "Dokken SP2",
+        "developer": "Warner Bros.",
+        "developerId": "o-7kyv8uwtz74njnl544kbxzt5xqephw",
+        "endOfSupport": false,
+        "entitlementName": "281638e36db94686be2076cffa9b85b6",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "281638e36db94686be2076cffa9b85b6",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2023-01-23T18:13:15.085Z",
+        "mainGameItem": {
+          "id": "c6c05c82429a410384fb5ac46f4ecfde",
+          "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+          "unsearchable": false
+        },
+        "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+        "releaseInfo": [],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Dokken SP2",
+        "unsearchable": true,
+        "useCount": 1
+      },
+      {
+        "ageGatings": {},
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2023-01-23T18:13:25.194Z",
+        "customAttributes": {
+          "CanRunOffline": {
+            "type": "STRING",
+            "value": "true"
+          }
+        },
+        "description": "Dokken SP3",
+        "developer": "Warner Bros.",
+        "developerId": "o-7kyv8uwtz74njnl544kbxzt5xqephw",
+        "endOfSupport": false,
+        "entitlementName": "7804c5a1d88041729ed85a3846faed19",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "7804c5a1d88041729ed85a3846faed19",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2023-01-23T18:13:25.194Z",
+        "mainGameItem": {
+          "id": "c6c05c82429a410384fb5ac46f4ecfde",
+          "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+          "unsearchable": false
+        },
+        "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+        "releaseInfo": [],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Dokken SP3",
+        "unsearchable": true,
+        "useCount": 1
+      },
+      {
+        "ageGatings": {},
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2023-01-23T18:13:35.595Z",
+        "customAttributes": {
+          "CanRunOffline": {
+            "type": "STRING",
+            "value": "true"
+          }
+        },
+        "description": "Dokken SP4",
+        "developer": "Warner Bros.",
+        "developerId": "o-7kyv8uwtz74njnl544kbxzt5xqephw",
+        "endOfSupport": false,
+        "entitlementName": "91590cc5230244d6922a8a84a959311a",
+        "entitlementType": "AUDIENCE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "91590cc5230244d6922a8a84a959311a",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2023-01-23T18:14:20.144Z",
+        "mainGameItem": {
+          "id": "c6c05c82429a410384fb5ac46f4ecfde",
+          "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+          "unsearchable": false
+        },
+        "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+        "releaseInfo": [],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Dokken SP4",
+        "unsearchable": true,
+        "useCount": 1
+      }
+    ],
+    "endOfSupport": false,
+    "entitlementName": "c6c05c82429a410384fb5ac46f4ecfde",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "c6c05c82429a410384fb5ac46f4ecfde",
+    "installModes": [],
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1440,
+        "md5": "0fcb13a50e3f35e168a9bf7e466033ab",
+        "size": 704644,
+        "type": "DieselGameBox",
+        "uploadedDate": "2024-03-07T20:18:40.293Z",
+        "url": "https://cdn1.epicgames.com/item/3a212c0da4f1438e840c21565df4b6fe/EGS_MultiVersus_PlayerFirstGames_S1_2560x1440-0fcb13a50e3f35e168a9bf7e466033ab",
+        "width": 2560
+      },
+      {
+        "height": 1600,
+        "md5": "f9ebaf927c6ece4b1d39ea760c0eae19",
+        "size": 381257,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2024-03-07T20:18:44.129Z",
+        "url": "https://cdn1.epicgames.com/item/3a212c0da4f1438e840c21565df4b6fe/EGS_MultiVersus_PlayerFirstGames_S2_1200x1600-f9ebaf927c6ece4b1d39ea760c0eae19",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2024-03-11T16:12:44.110Z",
+    "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+    "releaseInfo": [
+      {
+        "appId": "711c5e95dc094ca58e5f16bd48e751d6",
+        "compatibleApps": [],
+        "dateAdded": "2021-12-08T17:23:04.456Z",
+        "id": "48a691f0d3874b9a80be9b3dac5bc030",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "MultiVersus",
+    "unsearchable": true
+  }
+}

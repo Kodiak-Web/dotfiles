@@ -10,7 +10,7 @@ input "1739:52941:SYNA32E8:00_06CB:CECD_Touchpad" {
   tap_button_map lrm
   drag enabled
   drag_lock disabled
-  dwt enabled
+  dwt disabled
   dwtp disabled
   middle_emulation enabled
   click_method button_areas

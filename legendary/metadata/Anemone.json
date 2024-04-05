@@ -1,0 +1,119 @@
+{
+  "app_name": "Anemone",
+  "app_title": "World of Goo",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "Anemone",
+      "asset_id": "Anemone",
+      "build_version": "1.53",
+      "catalog_item_id": "716245e44f694937b68792dcd090a15c",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "anemone"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2019-02-14T19:01:43.178Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "WorldOfGoo"
+      },
+      "MonitorPresence": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "PresenceID": {
+        "type": "STRING",
+        "value": "anemone"
+      },
+      "SupportedPlatforms": {
+        "type": "STRING",
+        "value": "Windows,Mac"
+      },
+      "com.epicgames.app.developerName": {
+        "type": "STRING",
+        "value": "SD Boy"
+      }
+    },
+    "description": "World of Goo",
+    "developer": "2D Boy",
+    "developerId": "o-fdxn5bcapezptpk6s97ksd6hg6rkls",
+    "endOfSupport": false,
+    "entitlementName": "716245e44f694937b68792dcd090a15c",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "716245e44f694937b68792dcd090a15c",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1440,
+        "md5": "06ff8bbf3e6f98fad7b428b6b34eeba5",
+        "size": 1149398,
+        "type": "DieselGameBox",
+        "uploadedDate": "2024-04-02T20:36:09.492Z",
+        "url": "https://cdn1.epicgames.com/offer/anemone/WoG_WideImage_2560x1440_2560x1440-06ff8bbf3e6f98fad7b428b6b34eeba5",
+        "width": 2560
+      },
+      {
+        "height": 1127,
+        "md5": "2496166c92c6a710d0bf72f1132e5411",
+        "size": 287556,
+        "type": "DieselGameBoxLogo",
+        "uploadedDate": "2019-05-02T15:14:24.022Z",
+        "url": "https://cdn1.epicgames.com/anemone/item/World-of-Goo-Logo-Black-2008x1127-2496166c92c6a710d0bf72f1132e5411-2008x1127-2496166c92c6a710d0bf72f1132e5411.png",
+        "width": 2008
+      },
+      {
+        "height": 1600,
+        "md5": "7aa4a3d559274eec6732608a89cb483b",
+        "size": 459354,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2024-04-02T20:35:12.105Z",
+        "url": "https://cdn1.epicgames.com/offer/anemone/WoG_TallImage_1200x1600_1200x1600-7aa4a3d559274eec6732608a89cb483b",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2024-04-02T20:36:16.087Z",
+    "namespace": "anemone",
+    "releaseInfo": [
+      {
+        "appId": "Anemone",
+        "compatibleApps": [],
+        "dateAdded": "2019-02-14T00:00:00.000Z",
+        "id": "3fe21922b5d54c578ec2bfaf5ddf7bef",
+        "platform": [
+          "Windows",
+          "Mac"
+        ],
+        "releaseNote": "",
+        "versionTitle": ""
+      }
+    ],
+    "selfRefundable": true,
+    "status": "ACTIVE",
+    "title": "World of Goo",
+    "unsearchable": false
+  }
+}

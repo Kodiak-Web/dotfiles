@@ -1,0 +1,28 @@
+{
+  "Salt": {
+    "app_name": "Salt",
+    "base_urls": [
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-82l4kr2zqqhkqqa6mkut4pjx9lma3h/9ae799adceab466a97fbc0408d12c5b8/default",
+      "https://download.epicgames.com/Builds/Org/o-82l4kr2zqqhkqqa6mkut4pjx9lma3h/9ae799adceab466a97fbc0408d12c5b8/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-82l4kr2zqqhkqqa6mkut4pjx9lma3h/9ae799adceab466a97fbc0408d12c5b8/default",
+      "https://cloudflare.epicgamescdn.com/Builds/Org/o-82l4kr2zqqhkqqa6mkut4pjx9lma3h/9ae799adceab466a97fbc0408d12c5b8/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "Celeste.exe",
+    "install_path": "/home/kodi/Games/Celeste",
+    "install_size": 1171334315,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "title": "Celeste",
+    "uninstaller": null,
+    "version": "1.4.0.0-Windows"
+  }
+}

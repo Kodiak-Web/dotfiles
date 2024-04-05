@@ -1,0 +1,116 @@
+{
+  "app_name": "Feverfew",
+  "app_title": "The Jackbox Party Pack",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "Feverfew",
+      "asset_id": "Feverfew",
+      "build_version": "1.0.3",
+      "catalog_item_id": "dbdfda37b43b4960aa0ca3a480cf0be9",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "feverfew"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2019-01-15T15:42:03.384Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "JackboxPartyPack1"
+      },
+      "MonitorPresence": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "PresenceId": {
+        "type": "STRING",
+        "value": "feverfew"
+      },
+      "SupportedPlatforms": {
+        "type": "STRING",
+        "value": "Windows,Mac,Win32"
+      },
+      "com.epicgames.app.developerName": {
+        "type": "STRING",
+        "value": "Jackbox Games"
+      },
+      "com.epicgames.app.offerNs": {
+        "type": "STRING",
+        "value": "feverfew"
+      }
+    },
+    "description": "The Jackbox Party Pack",
+    "developer": "Jackbox Games, Inc.",
+    "developerId": "o-2m9ap45qzvalaepjz6wclpcffeq4aj",
+    "endOfSupport": false,
+    "entitlementName": "dbdfda37b43b4960aa0ca3a480cf0be9",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "dbdfda37b43b4960aa0ca3a480cf0be9",
+    "installModes": [],
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1440,
+        "md5": "dd7ac7ac9b76c2b1942a2d427fbf811a",
+        "size": 992623,
+        "type": "DieselGameBox",
+        "uploadedDate": "2023-01-12T12:58:00.429Z",
+        "url": "https://cdn1.epicgames.com/item/feverfew/PP1_WideImage_2560x1440-dd7ac7ac9b76c2b1942a2d427fbf811a",
+        "width": 2560
+      },
+      {
+        "height": 1600,
+        "md5": "fe8ca9d7be58d90903ddf0d40d7b061c",
+        "size": 940698,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2023-01-12T12:58:03.513Z",
+        "url": "https://cdn1.epicgames.com/item/feverfew/PP1_TallImage_1200x1600-fe8ca9d7be58d90903ddf0d40d7b061c",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2023-01-12T12:58:06.252Z",
+    "namespace": "feverfew",
+    "releaseInfo": [
+      {
+        "appId": "Feverfew",
+        "compatibleApps": [],
+        "dateAdded": "2019-01-15T00:00:00.000Z",
+        "id": "1d5285ca905042aca2812abbaa55919a",
+        "platform": [
+          "Windows",
+          "Mac",
+          "Win32"
+        ],
+        "releaseNote": "",
+        "versionTitle": ""
+      }
+    ],
+    "selfRefundable": true,
+    "status": "ACTIVE",
+    "title": "The Jackbox Party Pack",
+    "unsearchable": false
+  }
+}
