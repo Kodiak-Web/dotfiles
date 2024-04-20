@@ -1,9 +1,0 @@
-{
-  "data_path": "/home/kodi/.local/share/rum",
-  "library_paths": [],
-  "terminal": "xterm",
-  "script_blacklist": [
-    "winetricks",
-    "rum.sh"
-  ]
-}

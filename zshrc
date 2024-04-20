@@ -29,6 +29,7 @@ SAVEHIST=1000
 ## HAND EDITS TIME FROM HERE ON. COWABUNGA
 #path+=('home/kodi/.local/bin') #TIL zsh makes that possible
 #history changes
+autoload zmv
 setopt APPEND_HISTORY
 setopt SHARE_HISTORY
 setopt HIST_EXPIRE_DUPS_FIRST

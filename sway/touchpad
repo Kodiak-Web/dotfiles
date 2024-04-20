@@ -2,7 +2,7 @@ input "1739:52941:SYNA32E8:00_06CB:CECD_Touchpad" {
   events enabled
   accel_profile flat
   pointer_accel 0.0
-  natural_scroll disabled
+  natural_scroll disabled 
   scroll_factor 1.0
   scroll_method two_finger
   left_handed disabled
