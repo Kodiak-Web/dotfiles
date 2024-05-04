@@ -16,13 +16,21 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
 Plug 'ryanoasis/vim-devicons'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+
+" Plug 'fatih/vim-go' // dont know what this gave me over the coc plugin ngl
+
+Plug 'pseewald/vim-anyfold'
+Plug 'tpope/vim-scriptease'
+
 call plug#end()
 nnoremap <esc> : let @/=""<CR>
 syntax on
 set nocompatible
 filetype on
 filetype plugin on
+filetype plugin indent on
 set number
+set relativenumber
 set ignorecase
 set hlsearch
 set wildmenu
@@ -30,10 +38,22 @@ set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 set mouse=a
 set expandtab
-set tabstop=4
+set tabstop=2 
+set softtabstop=4
 set shiftwidth=4
 set hidden
+set scrolloff=8
+
+set foldlevel=1
+set foldnestmax=10
+autocmd Filetype * AnyFoldActivate               
+
+set nomore " why can't i overrride more with a different pager? 
+
 color material-monokai
+
+map <C-c> : call system('wl-copy', @")<Cr>
+nnoremap ff za
 
 " COC CONFIG
 

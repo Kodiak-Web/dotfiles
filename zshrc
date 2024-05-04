@@ -16,7 +16,6 @@ zstyle ':completion:*' menu select=0
 zstyle ':completion:*' preserve-prefix '//[^/]##/'
 zstyle ':completion:*' select-prompt %SScrolling active: current selection at %p%s
 zstyle :compinstall filename '/home/kodi/.zshrc'
-
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
@@ -25,6 +24,10 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 # End of lines configured by zsh-newuser-install
+
+
+
+
 
 ## HAND EDITS TIME FROM HERE ON. COWABUNGA
 #path+=('home/kodi/.local/bin') #TIL zsh makes that possible
@@ -35,8 +38,20 @@ setopt SHARE_HISTORY
 setopt HIST_EXPIRE_DUPS_FIRST
 setopt EXTENDED_HISTORY
 setopt AUTO_CD
-bindkey '\e[A' history-search-backward
-bindkey '\e[B' history-search-forward
+#bindkey '\e[A' history-search-backward
+#bindkey '\e[B' history-search-forward
+autoload -U up-line-or-beginning-search
+autoload -U down-line-or-beginning-search
+zle -N up-line-or-beginning-search
+zle -N down-line-or-beginning-search
+bindkey "$terminfo[kcuu1]" up-line-or-beginning-search
+bindkey "$terminfo[kcud1]" down-line-or-beginning-search
+
+
+
+
+
+
 path+=("$HOME/.cargo/bin/")
 path+=("$HOME/.local/bin")
 eval "$(zoxide init zsh)"

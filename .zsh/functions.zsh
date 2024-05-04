@@ -51,4 +51,21 @@ function gpprun {
         "./$1.out" #"${@:1}" #i need to either figure out how to get this working or rewrite this in another language.
 }
 
+# open fzf and cd into the picked folder. supports picking a search folder
+function fzfcd {
+    if [[ -n $* ]]; then
+        FZDIR="$*" 
+    else 
+        FZDIR="$PWD"
+    fi
+    NEWDIR="$(cd $FZDIR && find . -type d -print 2>/dev/null | fzf | cut -c2- )"
+    if [[ -n $NEWDIR ]]; then 
+        NEWDIR="$FZDIR$NEWDIR" 
+    else 
+        NEWDIR="$PWD" 
+    fi
+    cd "$NEWDIR" 
+}
+
+alias fz=fzfcd
 alias ranger='ranger_func'

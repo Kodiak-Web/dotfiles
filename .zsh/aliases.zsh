@@ -8,4 +8,6 @@ alias cd=z
 alias pacman=paru
 alias yay=paru
 alias pls='sudo $(fc -ln -1)'
+alias clipedit='wl-paste | vim - ' #works on wayland with zsh. 
+
 alias quit='exit'
