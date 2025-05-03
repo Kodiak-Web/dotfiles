@@ -1,1 +1,3 @@
 .config
+./fish/functions/spotiblock.fish
+.gitignore
